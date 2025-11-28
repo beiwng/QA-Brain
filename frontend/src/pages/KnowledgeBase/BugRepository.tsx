@@ -88,12 +88,12 @@ const BugRepository: React.FC = () => {
       dataIndex: 'summary',
       width: 300,
       fixed: 'left',
-      ellipsis: true,
+      // ellipsis: true,
       formItemProps: {
         name: 'keyword',
       },
       render: (text) => (
-        <Tooltip title={text}>
+        <Tooltip title={text} color="rgba(0, 0, 0, 0.7)" overlayInnerStyle={{ color: '#ffffff' }}>
           <span>{text}</span>
         </Tooltip>
       )
