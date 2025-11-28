@@ -1,0 +1,32 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+aiomysql==0.2.0
+pymysql==1.1.0
+
+# Vector Database
+pymilvus==2.3.5
+
+# LLM & AI
+langchain==0.1.0
+langgraph==0.0.20
+httpx==0.26.0
+
+# Data Processing
+pandas==2.2.0
+openpyxl==3.1.2
+python-dateutil==2.8.2
+
+# Object Storage
+minio==7.2.3
+
+# Utilities
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
